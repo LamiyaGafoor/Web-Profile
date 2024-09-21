@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamiya</title>
+    <link rel="shortcut icon" href="https://png.pngtree.com/png-clipart/20190705/original/pngtree-webpage-icon-design-png-image_4266299.jpg">
+    <link rel="stylesheet" href="styling.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "WP5un23mNF3kXwJJe",
+      });
+   })();
+</script>
+</head>
+<body>
+    <div id="main">
+        <div id="navbar">
+            <a href="#home" class="myname">Lamiya Gafoor</a>
+            <div id="naviright">
+                <a href="#about">About</a>
+                <a href="#skill">Skills</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div id="home">
+            <div class="home-left"><br><br><br>
+                <p class="head-one">Hi, It's <br><span class="head-color">Lamiya Gafoor</span><br>
+                I'm a <span class="head-color">BCA Student</span></p><br><br>
+                <p class="home-para">Hello! I'm Lamiya Gafoor, a passionate person who have recently entered the environment of software development
+                    with big dreams of becoming a Developer.</p>
+            </div>
+        <div class="home-right">
+         <img src="image/profilepic.jpeg" alt="pic" width="500px" height="=500px">
+        </div>
+    </div>
+        <div class="home-bottom">
+            <div class="links">
+                <a href="https://www.instagram.com/fidahassen?igsh=MWN5cnMxb25xMHA3Nw=="><div class="icons"><i class='bx bxl-instagram-alt'></i></div></a>
+            </div>
+            <div class="links">
+                <a href=""><div class="icons"><i class='bx bxl-linkedin-square' ></i></div></a>
+            </div>
+            <div class="links">
+                <a href=""><div class="icons"><i class='bx bxl-github'></i></i></div></a>
+            </div>
+        </div>
+        <br><br><br>
+        <div id="about">
+            <h1 class="about-head">ABOUT <span class="head-color">ME</span></h1><br>
+            <p class="about-para">Hi! I am Lamiya Gafoor. I am a Second Year Undergraduate student currently studying in 
+                Noble Women's College, which is affiliated with Calicut University. I am an enthusiastic and active person 
+                and ready to always learn new things. I have experience in making webpages using HTML and CSS. 
+                <br><br>
+                I am keen in seeking knowledge and new information about the technologies. I have done certification
+                course of Certified Cyber Security Analyst (CCSA) from Red Team Hacker Academy. 
+                <br><br>
+                Currently, I am completing my training in Bridgeon, where a talented team is guiding me to improve my skills, 
+                both technically and theoritically.
+                <br><br>
+                Explore my portfolio to see examples of my work, and don't hesitate to reach out if you're
+                    interested in collaborating on exciting projects or discussing tech innovations!
+            </p>
+        </div>
+        <div id="skill">
+            <h1 class="skill-head">SKILLS</h1><br><br>
+            <div id="skill-container">
+                <div class="skill-sub">
+                    <div class="skill-icon-head"><i class='bx bxl-html5' ></i>
+                    <h2>HTML</h2>
+                    </div>
+                    <p class="skill-para">HTML which is also called as Hypertext Markup Language is a basic and 
+                    standard language used to create a webpage. This is done with the help of many tags and attributes.
+                    HTML is used to create a basic structure of a webpage.These tags define elements such as headings, 
+                    paragraphs, images, links, and more. HTML is essential for building the basic structure
+                    of a website.</p>
+                </div>
+                <div class="skill-subtwo">
+                    <div class="skill-icon-head"><i class='bx bxl-css3' ></i>
+                    <h2>CSS</h2></div>
+                    <p class="skill-para">CSS which is also known as Cascading Style Sheet is a computer language for 
+                        laying out and structuring web pages. It is use to make the HTML document or the structure of 
+                        a webpage to be more colorful and be dynamic. It is used for styling of the HTML document. </p>
+                </div>
+            </div>
+
+        </div>
+        <br><br><br>
+        <div id="project">
+            <h1 class="project-head">PROJECT</h1>
+            <div class="project-sub">
+                <a href="C:\Users\lamiy\OneDrive\Desktop\bridgeon\profile\login.html">VIEW<i class='bx bx-desktop' ></i></a>
+            </div>
+        </div>
+        <div id="contact">
+            <h1 class="contact-head">CONTACT <span class="head-color">ME</span></h1>
+            <div class="contact-form">
+                <input type="text" placeholder="Full Name" id="name" class="contact-input">
+                <input type="email" placeholder="Email" id="email" class="contact-input">
+                <input type="text" placeholder="Subject" id="subject" class="contact-input">
+                <textarea id="message"></textarea>
+                <button id="send" on click="sendMail()">Send Message</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

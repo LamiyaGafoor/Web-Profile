@@ -1,0 +1,18 @@
+h1{color: blue;
+    font: weight 900px;
+} 
+h3{color:slategray;}
+p{color:slategrey;}
+body{background-color:rgb(226, 223, 223);
+    
+}
+.fill{background-color:white;
+width: 550px;
+height: 600px;
+padding: 3%;
+border-radius: 2%;
+margin-left: 28%;}
+
+#two{position: ;
+justify-content: space-evenly;}
+
